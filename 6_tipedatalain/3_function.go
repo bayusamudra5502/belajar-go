@@ -7,7 +7,7 @@ func haha(value int) {
 }
 
 func main() {
-	defer haha(2) // Defer itu dijalankan sebagaimana stack
+	defer haha(2) // Defer itu dijalankan sebagaimana stack LIFE (Last In First Execute)
 	defer haha(3)
 
 	haha(1)
