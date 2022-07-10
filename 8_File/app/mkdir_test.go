@@ -12,5 +12,6 @@ func TestMkdir(t *testing.T) {
 	path := path.Join(cwd, "assets/Hana") 
 	fmt.Println(path)
 
-	os.Mkdir(path, 0644);
+	os.Mkdir(path, 0644)
+	// os.RemoveAll(path) // Sama kayak rm -r path
 }
