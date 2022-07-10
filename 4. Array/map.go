@@ -21,6 +21,8 @@ func main(){
 
 func fungsiPembantu(){
 	makananBaru := make(map[string]int)
+	makananBaru = map[string]int{} // Sah" aja
+	
 	makananBaru["wakakak"] = 10
 	makananBaru["hupla"] = 10
 	fmt.Println(makananBaru)
